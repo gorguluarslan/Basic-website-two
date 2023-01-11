@@ -61,7 +61,6 @@ body {
 
 .header-text {
   color: white;
-  opacity: 1 !important;
   position: relative;
   font-size: 40px;
 }
@@ -174,6 +173,7 @@ body {
   background-repeat: no-repeat;
   background-image: url(../html/bg-masthead.jpg);
 }
+
 .footer-section-style {
   min-width: 350px;
   min-height: 350px;
@@ -183,9 +183,11 @@ body {
 
   position: relative;
 }
+
 .footer-section-text {
   padding-top: 100px;
   color: white;
+  position: relative;
 }
 .footer-section-buttons {
   margin-bottom: 150px;
@@ -223,16 +225,16 @@ body {
   opacity: 0.6;
 }
 .footer-ıcons {
-  color: rgb(49, 49, 241);
   display: flex;
   column-gap: 20px;
+  color: #0d6efd;
+  font-size: 13px;
 }
 @media only screen and (max-width: 992px) {
   .section-article {
     flex-direction: column;
     text-align: center;
   }
-
   .section-block {
     flex-direction: column-reverse;
     text-align: center;
@@ -260,5 +262,17 @@ body {
     right: 160px;
     margin-top: 20px;
     text-align: center;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .footer-link {
+    justify-content: center;
+  }
+  .footer-text {
+    justify-content: center;
+  }
+  .footer-ıcons {
+    justify-content: center;
   }
 }
